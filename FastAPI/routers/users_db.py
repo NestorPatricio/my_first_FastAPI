@@ -21,7 +21,7 @@ from FastAPI.db.schemas.user import users_schema
 # Instancia de la ruta de la API
 router = APIRouter(
     prefix='/users-db',
-    tags=['Users'],
+    tags=['Users_in_Atlas'],
     responses={status.HTTP_404_NOT_FOUND: {'message': 'User not found'}}
 )
 
